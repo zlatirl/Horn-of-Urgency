@@ -14,7 +14,7 @@ const client = new Client({
     ]
 });
 
-// Construct the full path to names.json within the src folder
+// Paths to JSON
 const namesFilePath = path.join(__dirname, 'names.json');
 
 // Read the names from the JSON file
@@ -54,8 +54,17 @@ client.on('interactionCreate', (interaction) => {
     // Get the first 4 names
     const selectedNames = shuffledNames.slice(0, 4);
 
+    // Create embeds for each selected name
+    const embeds = selectedNames.map((name) => {
+        return new EmbedBuilder()
+        .setTitle(name)
+        // .setDescription(`NM: ${name}`)
+        .setImage()
+        .setColor(0x00AE86);
+    });
+
     // Respond with the selected names
-    interaction.reply(`NMs of the week: ${selectedNames.join(', ')}`);
+    interaction.reply({ embeds });
 });
 
 // Login to Discord with the bot token from the .env file
