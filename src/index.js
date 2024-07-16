@@ -54,6 +54,12 @@ client.on('interactionCreate', (interaction) => {
     // Get the first 4 names
     const selectedNames = shuffledNames.slice(0, 4);
 
+    // Log the names to the console
+    console.log('Selected NMs:');
+    selectedNames.forEach((names, index) => {
+        console.log(`${index + 1}. ${names.name}`)
+    });
+
     // Create embeds for each selected name
     const embeds = selectedNames.map((names) => {
         return new EmbedBuilder()
