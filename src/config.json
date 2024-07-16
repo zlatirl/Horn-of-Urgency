@@ -8,7 +8,7 @@
         {
             "name": "Aspidochelone",
             "image": "https://static.wikia.nocookie.net/ffxi/images/f/f8/Aspid.jpg/revision/latest?cb=20060906235416",
-            "bank": ""
+            "bank": "Nothing"
         },
         {
             "name": "Cactrot Rapido",
@@ -23,7 +23,7 @@
         {
             "name": "Gulool Ja Ja",
             "image": "https://static.wikia.nocookie.net/ffxi/images/5/5d/Gulool_Ja_Ja.jpg/revision/latest/smart/width/386/height/259?cb=20060812112400",
-            "bank": ""
+            "bank": "Nothing"
         },
         {
             "name": "Ix'DRK",
@@ -43,7 +43,7 @@
         {
             "name": "Medusa",
             "image": "https://img2.wikia.nocookie.net/__cb20120720062224/finalfantasy/images/3/39/Lamia_Medusa_(FFXI).png",
-            "bank": ""
+            "bank": "Nothing"
         },
         {
             "name": "Fafnir",
