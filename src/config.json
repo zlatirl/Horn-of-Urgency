@@ -1,0 +1,64 @@
+{
+    "names": [
+        {
+            "name": "Ash Dragon",
+            "image": "https://static.wikia.nocookie.net/classicffxi/images/0/09/Ashdragon.jpg/revision/latest?cb=20190516064510",
+            "bank": "Dragon Scales"
+        },
+        {
+            "name": "Aspidochelone",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/f/f8/Aspid.jpg/revision/latest?cb=20060906235416",
+            "bank": ""
+        },
+        {
+            "name": "Cactrot Rapido",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/e/ef/Cactrot_Rapido.png/revision/latest/scale-to-width-down/340?cb=20131128192833",
+            "bank": "Cactuar Root"
+        },
+        {
+            "name": "Dark Ixion",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/5/51/Dark_Ixion.png/revision/latest?cb=20080610064247",
+            "bank": "Dark Ixion Tail"
+        },
+        {
+            "name": "Gulool Ja Ja",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/5/5d/Gulool_Ja_Ja.jpg/revision/latest/smart/width/386/height/259?cb=20060812112400",
+            "bank": ""
+        },
+        {
+            "name": "Ix'DRK",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/5/50/Ixdrk.jpg/revision/latest?cb=20070512041536",
+            "bank": "Deed of Moderation"
+        },
+        {
+            "name": "Khimaira",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/b/b3/Khimaira.jpg/revision/latest/scale-to-width-down/340?cb=20090523010616",
+            "bank": "Khimaira Tail"
+        },
+        {
+            "name": "Nidhogg",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/2/20/Nidhogg.jpg/revision/latest?cb=20070501171416",
+            "bank": "Nidhogg Scales, Dragon Scales, Dragon Meat"
+        },
+        {
+            "name": "Medusa",
+            "image": "https://img2.wikia.nocookie.net/__cb20120720062224/finalfantasy/images/3/39/Lamia_Medusa_(FFXI).png",
+            "bank": ""
+        },
+        {
+            "name": "Fafnir",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/8/83/Fafnir.png/revision/latest/scale-to-width-down/754?cb=20130907231603",
+            "bank": "Dragon Scales"
+        },
+        {
+            "name": "Hydra",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/9/9d/Hydra.png/revision/latest?cb=20110424020559",
+            "bank": "Hydra Meat, Orobon Lure"
+        },
+        {
+            "name": "Tiamat",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/8/82/Tiamat.JPG/revision/latest?cb=20161031015909",
+            "bank": "Damascus Ingot, Behemoth Hide, Siren's Hair, Wyrm Horn, Dragon Meat"
+        }
+    ]
+}

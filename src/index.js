@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Require the necessary discord.js classes
-const { Client, GatewayIntentBits, EmbedBuilder, SlashCommandBuilder, PermissionsBitField, Permissions } = require('discord.js');
+const { Client, GatewayIntentBits, EmbedBuilder, SlashCommandBuilder, PermissionsBitField, Permissions, Embed } = require('discord.js');
 
 const client = new Client({ 
     intents: [
@@ -15,10 +15,10 @@ const client = new Client({
 });
 
 // Paths to JSON
-const namesFilePath = path.join(__dirname, 'names.json');
+const configFilePath = path.join(__dirname, 'config.json');
 
 // Read the names from the JSON file
-const rawNames = fs.readFileSync(namesFilePath);
+const rawNames = fs.readFileSync(configFilePath);
 const namesData = JSON.parse(rawNames);
 const namesArray = namesData.names;
 
@@ -55,11 +55,11 @@ client.on('interactionCreate', (interaction) => {
     const selectedNames = shuffledNames.slice(0, 4);
 
     // Create embeds for each selected name
-    const embeds = selectedNames.map((name) => {
+    const embeds = selectedNames.map((names) => {
         return new EmbedBuilder()
-        .setTitle(name)
-        // .setDescription(`NM: ${name}`)
-        .setImage()
+        .setTitle(names.name)
+        .setImage(names.image)
+        .setDescription(`Bank: ${names.bank}`)
         .setColor(0x00AE86);
     });
 
