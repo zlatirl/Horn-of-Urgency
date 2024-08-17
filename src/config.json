@@ -1,11 +1,6 @@
 {
     "names": [
         {
-            "name": "Ash Dragon",
-            "image": "https://static.wikia.nocookie.net/classicffxi/images/0/09/Ashdragon.jpg/revision/latest?cb=20190516064510",
-            "bank": "Dragon Scales"
-        },
-        {
             "name": "Aspidochelone",
             "image": "https://static.wikia.nocookie.net/ffxi/images/f/f8/Aspid.jpg/revision/latest?cb=20060906235416",
             "bank": "Nothing"
@@ -59,6 +54,11 @@
             "name": "Tiamat",
             "image": "https://static.wikia.nocookie.net/ffxi/images/8/82/Tiamat.JPG/revision/latest?cb=20161031015909",
             "bank": "Damascus Ingot, Behemoth Hide, Siren's Hair, Wyrm Horn, Dragon Meat"
+        },
+        {
+            "name": "Brazen Bones",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/e/ee/Brazen_Bones.jpg/revision/latest?cb=20110221191119",
+            "bank": "Nothing"
         }
     ]
 }
