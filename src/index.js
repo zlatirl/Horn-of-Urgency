@@ -51,8 +51,22 @@ client.on('interactionCreate', (interaction) => {
     // Shuffle the array to ensure randomness
     const shuffledNames = namesArray.sort(() => Math.random() - 0.5);
 
-    // Get the first 4 names
-    const selectedNames = shuffledNames.slice(0, 4);
+    // Seperate joke and normal NMs
+    const jokeNMs = shuffledNames.filter((nm) => nm.joke);
+    const normalNMs = shuffledNames.filter((nm) => !nm.joke);
+    
+    // Start with 3 normal NMs
+    let selectedNames = normalNMs.slice (0, 3);
+
+    // Add a joke NM
+    const shouldIncludeJokeNM = Math.random() < 0.5; // 50% chance
+
+    if (shouldIncludeJokeNM && jokeNMs.length > 0) {
+        selectedNames.push(jokeNMs[0]);
+    } else if (normalNMs.length > 3) {
+        // If no joke NM, pick another normal NM to make it 4 NMs
+        selectedNames.push(normalNMs[3]);
+    }
 
     // Log the names to the console
     console.log('Selected NMs:');
