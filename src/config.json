@@ -77,6 +77,12 @@
             "image": "https://static.wikia.nocookie.net/ffxi/images/5/55/Behemoth.jpg/revision/latest?cb=20070505082640",
             "bank": "Behemoth Hide, Shank",
             "joke": false
+        },
+        {
+            "name": "Zirnitra",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/6/60/Zirnitra.jpg/revision/latest?cb=20100204060047",
+            "bank": "Nothing",
+            "joke": false
         }
     ]
 }
