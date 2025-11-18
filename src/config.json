@@ -83,6 +83,18 @@
             "image": "https://static.wikia.nocookie.net/ffxi/images/6/60/Zirnitra.jpg/revision/latest?cb=20100204060047",
             "bank": "Nothing",
             "joke": false
+        },
+        {
+            "name": "Gurfurlur the Menacing",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/4/4c/Gurfurlur_the_Menacing.jpg/revision/latest?cb=20060815170337",
+            "bank": "Nothing",
+            "joke": false
+        },
+        {
+            "name": "King Vinegarroon",
+            "image": "https://static.wikia.nocookie.net/ffxi/images/a/a8/King_Vinegarroon.jpg/revision/latest?cb=20061218191712",
+            "bank": "Nothing",
+            "joke": false
         }
     ]
 }
